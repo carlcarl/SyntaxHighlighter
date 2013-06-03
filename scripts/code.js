@@ -2504,7 +2504,7 @@ function path()
       ;
        
   for(var i = 0; i < args.length; i++)
-      result.push(args[i].replace('@', 'http://static.carlcarl.tw/blog/scripts/'));
+      result.push(args[i].replace('@', 'http://blog.carlcarl.tw/static/blog/scripts/'));
        
   return result
 };
